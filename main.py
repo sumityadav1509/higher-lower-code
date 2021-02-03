@@ -58,13 +58,4 @@ while game_should_continue:
 
 
 
-
-# Generate a random account from game data.
-
-# Format the account data into printable format. 
-
-# Ask a user for guess
  
-
-# Check if user is correct 
-# Get follower count 

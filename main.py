@@ -44,12 +44,12 @@ while game_should_continue:
   clear() 
   print(logo) 
 
-if is_correct:
-  score+=1
-  print(f"You're right ! Current Score: {score} ") 
-else: 
-  game_should_continue=False 
-  print(f"Sorry, that's wrong. Final Score: {score}") 
+  if is_correct:
+    score+=1
+    print(f"You're right ! Current Score: {score} ") 
+  else: 
+    game_should_continue=False 
+    print(f"Sorry, that's wrong. Final Score: {score}") 
 
 
 
